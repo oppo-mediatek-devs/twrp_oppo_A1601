@@ -81,8 +81,8 @@ TARGET_USERIMAGES_USE_EXT4 := true
 # TWRP Configuration
 TW_THEME := portrait_hdpi
 TW_EXTRA_LANGUAGES := false
-TW_DEFAULT_BRIGHTNESS := 700
-TW_MAX_BRIGHTNESS := 2047
+TW_DEFAULT_BRIGHTNESS := 102
+TW_MAX_BRIGHTNESS := 255
 TW_BRIGHTNESS_PATH := "/sys/class/leds/lcd-backlight/brightness"
 TW_CUSTOM_CPU_TEMP_PATH := "/sys/devices/virtual/thermal/thermal_zone1/temp"
 TW_SCREEN_BLANK_ON_BOOT := true
